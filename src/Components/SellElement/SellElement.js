@@ -5,6 +5,7 @@ import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles({
 wrapper:{
+    backgroundColor: 'black',
     border: '1px solid grey',
     minWidth: '13rem',
     minHeight:'13rem',
@@ -15,10 +16,17 @@ wrapper:{
         boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
 
     }
+},
+para:{
+    fontSize: "100px"
+},
+header:{
+    color: 'white'
+}
     
     
 }   
-  });
+  );
   
 
  
@@ -29,8 +37,8 @@ wrapper:{
     const classes = useStyles();
     return(
       <div className={classes.wrapper}>
-            <h3>{name}</h3>
-            <img src={image}/>
+            <h3 className={classes.header}>{name}</h3>
+            <h1 className={classes.para}>{image}</h1>
       </div>
     );
   }

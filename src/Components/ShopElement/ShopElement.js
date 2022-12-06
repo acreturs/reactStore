@@ -20,41 +20,37 @@ const useStyles = createUseStyles({
   
   const shopItems = [
     {
-      image: './images/dog1.png',
+      image: '🤠',
       name: 'Doggo1',
     },
     {
-      image: './images/dog2_2.png',
+      image: '😡',
       name: 'Doggo2',
     },
     {
-      image: './images/dog3_2.png',
+      image: '💩',
       name: 'Doggo3',
     },
     {
-        image: './images/dog1.png',
+        image: '👾',
         name: 'Doggo1',
       },
       {
-        image: './images/dog2_2.png',
-        name: 'Doggo2',
-      },
-      {
-        image: './images/dog3_2.png',
-        name: 'Doggo3',
-      },
-      {
-        image: './images/dog1.png',
+        image: '🤠',
         name: 'Doggo1',
       },
       {
-        image: './images/dog2_2.png',
+        image: '😡',
         name: 'Doggo2',
       },
       {
-        image: './images/dog3_2.png',
+        image: '💩',
         name: 'Doggo3',
       },
+      {
+          image: '👾',
+          name: 'Doggo1',
+        },
  
     
   ];
