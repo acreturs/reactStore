@@ -1,5 +1,10 @@
 import React from 'react'
 import { createUseStyles } from 'react-jss';
+import BILD1 from '../SellElement/dog1.png';
+import BILD2 from '../SellElement/dog2_2.png';
+import BILD3 from '../SellElement/dog3_2.png';
+
+
 
 
 
@@ -13,20 +18,22 @@ wrapper:{
     textAlign: 'center',
     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 13px 0 rgba(0, 0, 0, 0.19)',
     '&:hover':{
-        boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
-
+        boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 80px 0 rgba(0, 0, 0, 0.19)',
+        header:{
+          color:'black'
+        }
     }
 },
 para:{
     fontSize: "100px"
 },
 header:{
-    color: 'white'
-}
-    
-    
+    color: 'green',
+    '&:hover':{
+     color:'black'
+},
 }   
-  );
+ } );
   
 
  
@@ -38,7 +45,7 @@ header:{
     return(
       <div className={classes.wrapper}>
             <h3 className={classes.header}>{name}</h3>
-            <h1 className={classes.para}>{image}</h1>
+          <img src={image}/>
       </div>
     );
   }

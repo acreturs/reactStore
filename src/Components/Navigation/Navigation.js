@@ -9,13 +9,10 @@ const useStyles = createUseStyles({
       borderTop: 'black solid 1.5px',
       display: 'grid',
       gridTemplateColumns: '1fr 1fr',
-     
-
-      //gridTemplateRows: ''
     },
     liste:{
     marginTop: '0',
-    minWidth:'100%',
+   
     minHeight:'100%',
     listStyle:'none',
     display:'flex',
@@ -37,14 +34,13 @@ const useStyles = createUseStyles({
         gridRowEnd:'1',
         display:'grid',
         gridTemplateColumns: '1fr 1fr 1fr',
-        gridTemplateRows: '10% 80% 10%'
+        gridTemplateRows: '20% 60% 20%'
         },
     buttons:{
         border:'none',
         backgroundColor:'Transparent',
         color:'black',
-        paddingLeft:'1rem',
-        paddingRight:'1rem',
+        
         outline:'none',
         fontSize:'1.1rem',
         '&:hover':{
@@ -62,6 +58,7 @@ const useStyles = createUseStyles({
         gridRowStart: '2',
         gridRowEnd:'3',
         objectFit:'cover',
+       
     }
 
   });
