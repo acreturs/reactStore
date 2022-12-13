@@ -10,7 +10,8 @@ import BILD3 from '../SellElement/dog3_2.png';
 
 const useStyles = createUseStyles({
 wrapper:{
-    backgroundColor: 'black',
+
+    backgroundColor: 'red',
     border: '1px solid grey',
     minWidth: '12rem',
     minHeight:'12rem',
